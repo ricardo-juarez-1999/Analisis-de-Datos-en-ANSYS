@@ -3,6 +3,8 @@ os.system("cls")
 import pandas as pd
 import matplotlib.pyplot as plt
 
+print("Esta es la prueba para sincronizar local a remoto")
+
 archivo = "C:/Python/ANSYS_Data/Reposho_Bueno.csv"
 
 archi = pd.read_csv(archivo, skiprows=6)
